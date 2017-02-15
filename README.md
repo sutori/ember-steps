@@ -1,5 +1,7 @@
 # ember-steps
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexlafroscia/ember-steps.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/alexlafroscia/ember-steps.svg?branch=master)](https://travis-ci.org/alexlafroscia/ember-steps)
 [![dependencies Status](https://david-dm.org/alexlafroscia/ember-steps/status.svg)](https://david-dm.org/alexlafroscia/ember-steps)
 [![devDependencies Status](https://david-dm.org/alexlafroscia/ember-steps/dev-status.svg)](https://david-dm.org/alexlafroscia/ember-steps?type=dev)
