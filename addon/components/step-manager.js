@@ -19,14 +19,11 @@ const { Component, get, set } = Ember;
 // `;
 const layout = hbs`
   {{yield (hash
-    step=(component 'step-manager/step'
-      register-step=(action 'register-step-component')
-      currentStep=transitions.currentStep
-    )
     transition-to=(action 'transition-to-step')
     transition-to-next=(action 'transition-to-next-step')
     transition-to-previous=(action 'transition-to-previous-step')
     currentStep=transitions.currentStep
+    steps=(if _hasRendered transitions.stepArray)
   )}}
 `;
 
