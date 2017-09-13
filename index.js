@@ -18,12 +18,12 @@ module.exports = {
     }
 
     debug('registering HTMLBars plgin');
-    // registry.add('htmlbars-ast-plugin', {
-    //   name: 'ember-steps',
-    //   plugin: EmberStepsPlugin,
-    //   baseDir() {
-    //     return __dirname;
-    //   }
-    // });
+    registry.add('htmlbars-ast-plugin', {
+      name: 'ember-steps',
+      plugin: EmberStepsPlugin,
+      baseDir() {
+        return __dirname;
+      }
+    });
   }
 };
