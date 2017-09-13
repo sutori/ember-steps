@@ -3,12 +3,15 @@ import hbs from 'htmlbars-inline-precompile';
 import { StepNameError } from 'ember-steps/-private/errors';
 
 const { Component, computed, get, isBlank } = Ember;
+// const layout = hbs`
+//   {{#if isActive}}
+//     {{yield}}
+//   {{else if hasInactiveState}}
+//     {{yield to='inverse'}}
+//   {{/if}}
+// `;
 const layout = hbs`
-  {{#if isActive}}
-    {{yield}}
-  {{else if hasInactiveState}}
-    {{yield to='inverse'}}
-  {{/if}}
+  HELLO
 `;
 
 export default Component.extend({
