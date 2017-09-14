@@ -11,7 +11,11 @@ const { Component, computed, get, isBlank } = Ember;
 //   {{/if}}
 // `;
 const layout = hbs`
-  HELLO
+  {{#if isActive}}
+    {{yield}}
+  {{else if hasInactiveState}}
+    HELLO
+  {{/if}}
 `;
 
 export default Component.extend({
