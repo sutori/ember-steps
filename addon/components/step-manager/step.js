@@ -14,7 +14,7 @@ const layout = hbs`
   {{#if isActive}}
     {{yield}}
   {{else if hasInactiveState}}
-    HELLO
+    {{yield to='inverse'}}
   {{/if}}
 `;
 
